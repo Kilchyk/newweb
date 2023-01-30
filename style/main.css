@@ -122,6 +122,11 @@
 	min-width: 341px;
 }
 
+.image{
+	max-width: 100%;
+	height: auto;
+}
+
 .photo{
 	width: 260px;
 	height: 380px;
@@ -131,6 +136,60 @@
 .over{
 	font-size: 50px;
 	margin-top: 20px;
+}
+
+.quest{
+	padding-left: 140px;
+	background: #e1f5fe;
+}
+
+.formall{
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.soki{
+	width: 300px;
+	height: 30px;
+	font-size: 14px;
+	border: none;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.ratio{
+	margin-top: 10px;
+}
+
+.submit{
+	width: 307px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.submit:hover{
+	background-color: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.location{
+	font-size: 22px;
+}
+
+.applicant{
+	font-weight: bold;
+	font-size: 38px;
+  padding-top: 20px;
+}
+
+.date{
+	font-size: 16px;
+	font-family: Roboto Mono, monospace;
 }
 
 
