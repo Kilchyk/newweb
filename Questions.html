@@ -20,9 +20,9 @@
 <section>
 <div class="quest">
 	<h2 class="applicant">Applicant Form</h2>
-	<form action="formular" method="Post"></form>
+	<form action="test.php" method="get"></form>
       <div class="formall"><select class="soki" name="Theme" required="required"></div>
-         <option value="/">Take Your Event</option>
+         <option value="Take">Take Your Event</option>
          <option value="Wedding">Wedding</option>
          <option value="Love Story">Love Story</option>
          <option value="Pregnant Shooting">Pregnant Shooting</option>
@@ -33,12 +33,12 @@
          <div class="formall"><input class="soki" type="phone" name="phone" placeholder="Phone" required="required"></div>
          <div class="formall"><h3 class="location">Date of your Event</h3></div>
          <div class="formall"><input class="soki date" type="date" name="date" value="2023-02-01" min="2023-02-01" max="2024-12-31" required="required"></div>
-         <div class="formall"><input type="checkbox" name="checkbox" value="I agree" required="required"> I agree to the processing and sending of personal data</div>
+         <div class="formall"><input type="checkbox" name="checkbox" id="Agree" required="required"> I agree to the processing and sending of personal data</div>
          <div class="formall"><h3 class="location">Your Location</h3></div>
-         <div class="ratio"><input type="radio" name="Country"> Germany</div>
-         <div class="ratio"><input type="radio" name="Country"> Ukraine</div>
-         <div class="ratio"><input type="radio" name="Country"> Country in Europe</div>
-         <div class="ratio"><input type="radio" name="Country"> Other Country</div>
+         <div class="ratio"><input type="radio" name="Country" value="Germany"> Germany</div>
+         <div class="ratio"><input type="radio" name="Country" value="Ukraine"> Ukraine</div>
+         <div class="ratio"><input type="radio" name="Country" value="Europe"> Country in Europe</div>
+         <div class="ratio"><input type="radio" name="Country" value="Other"> Other Country</div>
          <div class="formall"><textarea name="message" cols="30" rows="10" placeholder="Your Preferences"></textarea></div>
          <div class="button"><button class="submit" type="submit">Send</button></div>
 </div>
